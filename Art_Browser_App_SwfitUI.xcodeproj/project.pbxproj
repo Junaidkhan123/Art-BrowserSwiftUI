@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		91344CDF25741CF200D114A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CDE25741CF200D114A7 /* AppDelegate.swift */; };
 		91344CE125741CF200D114A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CE025741CF200D114A7 /* SceneDelegate.swift */; };
-		91344CE325741CF200D114A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CE225741CF200D114A7 /* ContentView.swift */; };
+		91344CE325741CF200D114A7 /* ArtStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CE225741CF200D114A7 /* ArtStationView.swift */; };
 		91344CE525741CF600D114A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91344CE425741CF600D114A7 /* Assets.xcassets */; };
 		91344CE825741CF600D114A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91344CE725741CF600D114A7 /* Preview Assets.xcassets */; };
 		91344CEB25741CF600D114A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91344CE925741CF600D114A7 /* LaunchScreen.storyboard */; };
+		91344CF425741F0C00D114A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CF325741F0C00D114A7 /* Constants.swift */; };
+		91344CF625741F3400D114A7 /* Ext+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CF525741F3400D114A7 /* Ext+UIColor.swift */; };
+		91344CF92574262600D114A7 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CF82574262600D114A7 /* CircleButton.swift */; };
+		91344CFB2574283F00D114A7 /* ArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91344CFA2574283F00D114A7 /* ArtistView.swift */; };
+		915BA20425779D97003092F3 /* AllArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BA20325779D97003092F3 /* AllArtistView.swift */; };
+		915BA2082577BE0A003092F3 /* ArtistsReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BA2072577BE0A003092F3 /* ArtistsReviewsView.swift */; };
+		915BA20F2577C960003092F3 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915BA20E2577C960003092F3 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		91344CDB25741CF200D114A7 /* Art_Browser_App_SwfitUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Art_Browser_App_SwfitUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91344CDE25741CF200D114A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91344CE025741CF200D114A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		91344CE225741CF200D114A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91344CE225741CF200D114A7 /* ArtStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtStationView.swift; sourceTree = "<group>"; };
 		91344CE425741CF600D114A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91344CE725741CF600D114A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91344CEA25741CF600D114A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91344CEC25741CF600D114A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91344CF325741F0C00D114A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		91344CF525741F3400D114A7 /* Ext+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIColor.swift"; sourceTree = "<group>"; };
+		91344CF82574262600D114A7 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		91344CFA2574283F00D114A7 /* ArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistView.swift; sourceTree = "<group>"; };
+		915BA20325779D97003092F3 /* AllArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllArtistView.swift; sourceTree = "<group>"; };
+		915BA2072577BE0A003092F3 /* ArtistsReviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsReviewsView.swift; sourceTree = "<group>"; };
+		915BA20E2577C960003092F3 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +70,14 @@
 		91344CDD25741CF200D114A7 /* Art_Browser_App_SwfitUI */ = {
 			isa = PBXGroup;
 			children = (
+				91344CF72574260A00D114A7 /* Views */,
+				91344CF225741EF100D114A7 /* Utilities */,
 				91344CDE25741CF200D114A7 /* AppDelegate.swift */,
 				91344CE025741CF200D114A7 /* SceneDelegate.swift */,
-				91344CE225741CF200D114A7 /* ContentView.swift */,
+				91344CE225741CF200D114A7 /* ArtStationView.swift */,
+				91344CFA2574283F00D114A7 /* ArtistView.swift */,
+				915BA20325779D97003092F3 /* AllArtistView.swift */,
+				915BA2072577BE0A003092F3 /* ArtistsReviewsView.swift */,
 				91344CE425741CF600D114A7 /* Assets.xcassets */,
 				91344CE925741CF600D114A7 /* LaunchScreen.storyboard */,
 				91344CEC25741CF600D114A7 /* Info.plist */,
@@ -73,6 +92,40 @@
 				91344CE725741CF600D114A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91344CF225741EF100D114A7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				91344CF325741F0C00D114A7 /* Constants.swift */,
+				91344CF525741F3400D114A7 /* Ext+UIColor.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		91344CF72574260A00D114A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				915BA20D2577C951003092F3 /* View */,
+				915BA20B2577C94A003092F3 /* Button */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		915BA20B2577C94A003092F3 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				91344CF82574262600D114A7 /* CircleButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		915BA20D2577C951003092F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				915BA20E2577C960003092F3 /* RatingView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915BA2082577BE0A003092F3 /* ArtistsReviewsView.swift in Sources */,
+				91344CF625741F3400D114A7 /* Ext+UIColor.swift in Sources */,
+				915BA20425779D97003092F3 /* AllArtistView.swift in Sources */,
+				915BA20F2577C960003092F3 /* RatingView.swift in Sources */,
 				91344CDF25741CF200D114A7 /* AppDelegate.swift in Sources */,
+				91344CFB2574283F00D114A7 /* ArtistView.swift in Sources */,
 				91344CE125741CF200D114A7 /* SceneDelegate.swift in Sources */,
-				91344CE325741CF200D114A7 /* ContentView.swift in Sources */,
+				91344CF92574262600D114A7 /* CircleButton.swift in Sources */,
+				91344CE325741CF200D114A7 /* ArtStationView.swift in Sources */,
+				91344CF425741F0C00D114A7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
