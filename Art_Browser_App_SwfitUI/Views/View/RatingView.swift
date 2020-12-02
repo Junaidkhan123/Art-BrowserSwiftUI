@@ -32,7 +32,7 @@ struct RatingView: View {
         }
         
     }
-    
+
     
     func image(for number: Int) -> Image {
         if number > rating {
